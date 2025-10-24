@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+
+    
+    <title>BrownieMiau</title>
+</head>
+<body>
+    <!--Seções da Pagina home/cardapio/avaliações-->
+
+    <header>
+        <nav id ="navbar">
+            <i class="fa-solid fa-cat" id="nav_logo"nav-logo>BrownieMiau</i>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardapio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <a href="https://wa.me/551120544947?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido!">
+                <button class="btn-default">
+                    Peça agora!
+                </button>
+            </a>
+
+
+            <!-- PARTE MOBILE DO CSS-->
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardapio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <a href="https://wa.me/551120544947?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido!">
+                <button class="btn-default">
+                    Peça agora!
+                </button>
+            </a>
+        </div>
+    </header>
+
+
+        <main id="content">
+            <section id="home">
+                <!--fUNDO DO BACKGROUND-->
+                <div class="shape"></div>
+                <!--fUNDO DO BACKGROUND-->
+                <div id="cta">
+                    <h1 class="title">
+                        Aqui tem o melhor
+                        <span>Brownie!</span>
+                    </h1>
+
+                    <p class="description"> Brownies e doces de alta qualidade.
+                    </p>
+
+                <!--Aqui vão os links dos botões nas funções com (A) EM HREF--> <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Cardápio
+                    </a>
+                    <!--Botão que liga pela agenda-->
+                    <a href="tel:+551120544947" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </button>
+                        (11)2054-4947
+                    </a>
+                </div>
+
+                <!--Linkando WhatsApp e Instagram-->
+                <div class="social-media-buttons">
+                    <a href="https://wa.me/551120544947?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido!">
+                        <button class="btn-default">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </button>
+                    </a>
+                    <a href="https://www.instagram.com/browniemiausp?igsh=anRsZWYxYWkybW4y&utm_source=qr">
+                        <button class="btn-default">
+                            <i class="fa-brands fa-instagram"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+                <!--IMAGEM DO BACKGROUND-->
+                <div id="banner">
+                    <img src="imagens/homeLogo.png" alt="">
+                </div>
+            </section>
+
+            <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imagens/BrownieTrradicional.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Brownie Tradicional 
+                    </h3>
+
+                    <span class="dish-description">
+                        Nosso Tradicional com chocolate de verdade! Com casquinha crocante e macio por dentro.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(700+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$9,99</h4>
+                        <button class="btn-default btn-whatsapp">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imagens/BrownieTrradicional.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Brownie Recheado : Ninho com Nutella
+                    </h3>
+
+                    <span class="dish-description">
+                        Brownie com casquinha crocante, recheado com leite Ninho e Nutella. Uma explosão de sabor
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$12,99</h4>
+                        <button class="btn-default btn-whatsapp">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imagens/BrownieTrradicional.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Brownie Recheado : Nutella 
+                    </h3>
+
+                    <span class="dish-description">
+                        Brownie com casquinha crocante, recheado com Nutella de verdade. Perfeito para a sobremesa
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$12,99</h4>
+                        <button class="btn-default btn-whatsapp">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imagens/BrownieTrradicional.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                         Brownie Recheado
+                    </h3>
+
+                    <span class="dish-description">
+                        Brownie com casquinha crocante, recheado com
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$12,99</h4>
+                        <button class="btn-default btn-whatsapp">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imagens/BrownieTrradicional.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Brownie Recheado
+                    </h3>
+
+                    <span class="dish-description">
+                        Brownie com casquinha crocante, recheado com
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(300+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$12,99</h4>
+                        <button class="btn-default btn-whatsapp">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+
+             </div>
+
+                </div>
+                
+
+
+            </section>
+
+            <section id="testimonials">
+            <img src="imagens/chef.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="imagens/avatar2.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Melissa Santos
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Casquinha crocante e macio por dentro, chocolate meio amargo no ponto certo"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="imagens/avatar1.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Bruna Pereira
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Otimo atendimento e entrega rapida, doces maravilhosos!"
+                        </div>
+                    </div>
+                </div>
+
+                <button id="btn-avaliacoes" class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+
+        </main>
+
+        <footer>
+            <img src="imagens/wave.svg" alt="">
+
+            <div id = "footer_items">
+
+                <div class="social-media-buttons">
+                    <a href="https://wa.me/551120544947?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido!">
+                        <button class="btn-default">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </button>
+                    </a>
+                    <a href="https://www.instagram.com/browniemiausp?igsh=anRsZWYxYWkybW4y&utm_source=qr">
+                        <button class="btn-default">
+                            <i class="fa-brands fa-instagram"></i>
+                        </button>
+                    </a>
+                </div>
+
+
+                <span id="copyright">
+                    <a href="https://github.com/sr-devMiguel">
+                        &copy 2025 Miguel Palhares
+                    </a>
+                </span>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
